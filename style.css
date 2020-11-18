@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+.wrapper { 
+    width: 1440px;
+    margin: 0 auto;
+    font-family: 'Red Hat Text';
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0;
+    background: #2B2B2B;
+}
+
+.header__logo {
+    margin-right: 95px;
+}
+
+.header__menu {
+    display: flex;
+    margin-right: 125px;
+}
+
+.header__menu-item {
+    margin-right: 60px;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: -0.07em;
+    color: #BFBFBF;
+}
+
+.header__menu-item:hover {
+    color: #F5F5F7;
+    transition-property:all;
+    transition-duration: 0.3s
+}
+
+.header__menu-item:last-child {
+    margin-right: 0;
+}
+
+.header__button {
+    padding: 10px 65px;
+    border: 1px solid #F5F5F7;
+    border-radius: 46px;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.07em;
+    color: #BFBFBF;
+}
+
+.header__button:hover {
+    background-color: #BFBFBF;
+    border: 1px solid #BFBFBF;
+    color: black;
+    transition-property:all;
+    transition-duration: 0.7s
+}
+
+.main {
+    padding-top: 75px;
+    padding-bottom: 35px;
+    text-align: center;
+}
+
+.main__title {
+    font-size: 96px;
+    line-height: 127px;
+    letter-spacing: -0.02em;
+    color: #E5E5E5;
+    margin-bottom: 15px;
+}
+
+.main__info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__info-img {
+    margin-right: 160px;
+}
+
+.main__about-phone {
+    font-family: 'Roboto';
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.02em;
+    color: #5C97B1;
+    text-align: left;
+    position: relative;
+}
+
+.main__about-phone p {
+    margin-bottom: 30px;
+}
+
+.main__about-phone p:last-child {
+    margin-bottom: 0;
+}
+
+.main__about-phone::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    background-color: #5C97B1;
+    width: 1px;
+    top: 0;
+    left: -75px;
+}
+
+.hr {
+    margin: 0px 85px;
+    background:#BFBFBF; 
+    height: 2px; 
+}
+
+.footer {
+
+}
+
+.footer__article {
+    display:flex;
+    justify-content:center;
+    justify-content: space-around;
+    margin:20px 300px
+}
+
+.footer__article-list {
+   margin-bottom:20px;
+   font-size:20px;
+   color:#4B6571;
+   letter-spacing: 0.02em
+}
+
+.footer__article-list:first-child {
+    color:#CACACA;
+    margin-bottom:60px;
+    font-size:20px
+}
+
+.footer__article-list-link:hover {
+    color:#86B6CC
+}
